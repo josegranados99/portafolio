@@ -1,0 +1,17 @@
+/*Header*/
+.header_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.header_nav{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
