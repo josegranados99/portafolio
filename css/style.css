@@ -2,10 +2,13 @@
 
 :root {
   --primary-color: #f8f4f4;
+  --secondary-color: #eaf2fd;
+  ;
   --color-text: #464646;
   --font-family: "Raleway", sans-serif;
   --font-size-primary: 16px;
   --font-size-title: 52px;
+  --font-size-title-section: 32px;
   --font-weight-primary: 500;
   --font-weight-secundary: 700;
 }
@@ -43,11 +46,17 @@ body {
   font-size: var(--font-size-primary);
 }
 
+.title_section {
+  font-weight: var(--font-weight-secundary);
+  font-size: var(--font-size-title-section);
+}
+
 /*Main*/
 .container {
   width: 100%;
 }
 
+/*Principal Section*/
 .principal_section_container {
   margin: 0 152px;
 }
@@ -63,4 +72,14 @@ body {
 
 .social_networks_list li a {
   font-weight: var(--font-weight-secundary);
+}
+
+/*About Me Section*/
+.aboutme_section_container {
+  width: 100%;
+  background-color: var(--secondary-color);
+}
+
+.aboutme_article {
+  margin: 0 152px;
 }

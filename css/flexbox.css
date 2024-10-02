@@ -17,6 +17,11 @@
 }
 
 /*MAIN*/
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
 
 /*Principal Section*/
 .principal_section_container {
@@ -44,4 +49,12 @@
 
 .social_networks_item a {
     text-decoration: none;
+}
+
+/*About Me Section*/
+.aboutme_article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
