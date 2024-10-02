@@ -1,17 +1,47 @@
 /*Header*/
-.header_container{
-    display: flex;
-    justify-content: space-between;
+.header_container {
+  display: flex;
+  justify-content: space-between;
 }
 
-.header_logo{
-    display: flex;
-    align-items: center;
-    gap: 4px;
+.header_logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
-.header_nav{
+.header_nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+/*MAIN*/
+
+/*Principal Section*/
+.principal_section_container {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.principal_article {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.social_networks_list{
     display: flex;
     align-items: center;
     gap: 32px;
+}
+
+.social_networks_item {
+    display: flex;
+    align-items: center;
+}
+
+.social_networks_item a {
+    text-decoration: none;
 }

@@ -5,6 +5,7 @@
   --color-text: #464646;
   --font-family: "Raleway", sans-serif;
   --font-size-primary: 16px;
+  --font-size-title: 52px;
   --font-weight-primary: 500;
   --font-weight-secundary: 700;
 }
@@ -20,6 +21,7 @@ body {
   background-color: var(--primary-color);
 }
 
+/*Header*/
 .header_container {
   /* background-color: red; */
   margin: 0 152px;
@@ -39,4 +41,26 @@ body {
 .header_nav_menu {
   font-weight: var(--font-weight-primary);
   font-size: var(--font-size-primary);
+}
+
+/*Main*/
+.container {
+  width: 100%;
+}
+
+.principal_section_container {
+  margin: 0 152px;
+}
+
+.principal_title {
+  font-weight: var(--font-weight-secundary);
+  font-size: var(--font-size-title);
+}
+
+.social_networks_list {
+  list-style: none;
+}
+
+.social_networks_list li a {
+  font-weight: var(--font-weight-secundary);
 }
