@@ -3,7 +3,7 @@
 :root {
   --primary-color: #f8f4f4;
   --secondary-color: #eaf2fd;
-  ;
+  --tertiary-color: #ffffff;
   --color-text: #464646;
   --font-family: "Raleway", sans-serif;
   --font-size-primary: 16px;
@@ -82,4 +82,33 @@ body {
 
 .aboutme_article {
   margin: 0 152px;
+}
+
+/*Skills Section*/
+.skills_section_container {
+  width: 100%;
+}
+
+.skills_article {
+  margin: 0 152px;
+}
+
+.skills_list {
+  list-style: none;
+}
+
+.skills_item {
+  background-color: var(--tertiary-color);
+  width: 174px;
+  height: 176px;
+}
+
+.skills_item img {
+  width: 10%;
+  margin-left: 16px;
+}
+
+.skills_item p {
+  font-weight: var(--font-weight-secundary);
+  margin: 0 0 16px 16px;
 }
