@@ -96,3 +96,23 @@
   flex-direction: column-reverse;
   gap: 8px;
 }
+
+/*Academy Trainig*/
+.academy_training_article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.academy_training_list {
+  display: flex;
+  gap: 16px;
+}
+
+.academy_training_item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+

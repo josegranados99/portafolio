@@ -141,3 +141,29 @@ body {
   font-weight: var(--font-weight-secundary);
   margin: 0 0 16px 16px;
 }
+
+/*Academy Trainig*/
+.academy_training_section_container {
+  background-color: var(--secondary-color);
+  width: 100%;
+}
+
+.academy_training_article {
+  margin: 0 152px;
+}
+
+.academy_training_list {
+  list-style: none;
+}
+
+.academy_training_img {
+  background-color: var(--tertiary-color);
+  width: 368px;
+  height: 286px;
+}
+
+.academy_training_img img {
+  width: 50%;
+  height: 50%;
+  margin: 78px 89px;
+}
