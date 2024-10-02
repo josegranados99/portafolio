@@ -5,6 +5,7 @@
   --secondary-color: #eaf2fd;
   --tertiary-color: #ffffff;
   --color-text: #464646;
+  --color-border-button: #2A7AE4;
   --font-family: "Raleway", sans-serif;
   --font-size-primary: 16px;
   --font-size-title: 52px;
@@ -166,4 +167,39 @@ body {
   width: 50%;
   height: 50%;
   margin: 78px 89px;
+}
+
+/*Projects*/
+.projects_section_container {
+  width: 100%;
+}
+
+.projects_section_container div {
+  margin: 0 152px;
+}
+
+.project_article img {
+  width: 60%;
+}
+
+.project_article div {
+  width: 40%;
+}
+
+.project_article div p {
+  font-weight: 500;
+}
+
+.project_article div button {
+  width: 116px;
+  height: 51px;
+  border: 1px solid var(--color-border-button);
+  color: var(--color-border-button);
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.project_article div button:hover {
+  background-color: var(--color-border-button);
+  color: var(--tertiary-color);
 }
