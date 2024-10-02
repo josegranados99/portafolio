@@ -78,3 +78,21 @@
   gap: 8px;
 }
 
+/*Hobbies Section*/
+.hobbies_article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.hobbies_list {
+  display: flex;
+  gap: 16px;
+}
+
+.hobbies_item {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 8px;
+}

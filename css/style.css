@@ -112,3 +112,32 @@ body {
   font-weight: var(--font-weight-secundary);
   margin: 0 0 16px 16px;
 }
+
+/*Hobbies Section*/
+.hobbies_section_container {
+  width: 100%;
+}
+
+.hobbies_article {
+  margin: 0 152px;
+}
+
+.hobbies_list {
+  list-style: none;
+}
+
+.hobbies_item {
+  background-color: var(--tertiary-color);
+  width: 174px;
+  height: 176px;
+}
+
+.hobbies_item img {
+  width: 10%;
+  margin-left: 16px;
+}
+
+.hobbies_item p {
+  font-weight: var(--font-weight-secundary);
+  margin: 0 0 16px 16px;
+}
